@@ -1,0 +1,7 @@
+#proxy server
+
+sudo apt update
+sudo apt install squid 
+sudo nano /etc/squid/squid.conf
+sudo sevice squid restart
+sudo service squid status

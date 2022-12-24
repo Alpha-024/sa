@@ -1,0 +1,12 @@
+#Configuration of Telnet Server
+
+sudo apt install telnetd -y
+sudo systemctl status inetd
+sudo ufw allow 23/tcp
+sudo ufw reload
+sudo ufw status nubmered
+sudo systemctl status inetd
+sudo ufw allow23/tcp
+sudo ufw reload
+sudo ufw status nubmered
+telnet 192.168.240.128 23

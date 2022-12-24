@@ -1,0 +1,11 @@
+#Configuration of SAMBA Server
+
+sudo apt install samba
+whereis samba
+sudo mkdir /home/rcp/sambaa/
+sudo nano /etc/samba/smb.conf
+sudo service smbd restart
+sudo smbpasswd -a rcp
+sudo service smbd restart
+sudo service smbd status
+ifconfig
